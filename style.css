@@ -1,0 +1,196 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+ .container{
+  width: 100%;
+  background-color:#009933;
+  position: fixed;
+  height: 70px;
+  margin: 0 auto;
+  border-bottom: 3px solid black;
+}
+
+#menu{
+	margin-top: 12px;
+	margin-right: 60px;
+}
+#menu ul li{
+	
+	padding: 18px 10px;
+	margin-left: 150px;
+}
+
+#menu li{
+	display: inline;
+	padding: 25px 10px;
+
+}
+
+#menu li:hover{
+	background-color: #d1e3ba
+
+}
+
+#menu li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	 font-weight: bold;
+	 font-family: Arial , Verdana,  sans-serif;
+	  font-size: 13px;
+	color: white;
+     padding-left: 23px; 
+}
+
+#rrethnesh {
+  width: 100%;
+  height: 420px;
+}
+#rrethnesh #rrethneshh{
+  float: left;
+  width: 70%;
+}
+#rrethnesh #rrethneshh #fotoja{
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 60%;
+}
+#rrethnesh #rrethneshh #rrethneshPermbajtja{
+  float: left;
+  font-size: 14px;
+  width: 30%;
+  margin-left: 18px;
+}
+#rrethnesh #rrethneshh #rrethneshPermbajtja h3, .container2 #main #rrethnesh  h3{
+  text-transform: uppercase;
+  color: #009933;
+  border-bottom: #009933 2px solid;
+  padding-bottom: 10px;
+}
+#rrethnesh #rrethneshh #rrethneshPermbajtja p {
+  padding-left: 15px;
+}
+#main #rrethnesh #rrethneshh > p {
+  font-size: 14px;
+  margin: 0px 15px;
+}
+#main #rrethnesh {
+  float: right;
+  width: 28%;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.container #main #rrethnesh  h4 {
+  color: #009933;
+}
+.container #main #rrethnesh p {
+  margin-top: -15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+ #main #prefooter {
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  width: 240px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ #footer {
+  width: 100%;
+  height: 90px;
+}
+ #footer p {
+  font-size: 14px;
+  padding-top: 20px;
+  float: left;
+  padding-left: 15px;
+}
+ #footer p b {
+  color: #009933;
+}
+#footer ul {
+  float: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+ #footer ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
+ #footer ul li a img:hover {
+  transform: scale(1.1);
+}
+
+
+
+.tabela{
+  width: 95%;
+  margin: 0 auto;
+}
+.tabela h1{
+  color: #009933;
+  padding: 20px 0px 10px 10px;
+  margin: 0px 15px;
+  font-size: 25px;
+  border-bottom: 2px solid #009933;
+}
+#menu_table, #klienti_table, #porosia_table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 98%;
+  margin: 30px 15px 0px 15px;
+}
+#menu_table td,#klienti_table td,#porosia_table td,
+#menu_table th  ,#klienti_table th,#porosia_table th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#menu_table tr:nth-child(even),
+#klienti_table tr:nth-child(even),#porosia_table tr:nth-child(even) {
+  background-color: #eee;
+}
+#menu_table tr:hover,#klienti_table tr:hover,#porosia_table tr:hover {
+  background-color: #ddd;
+}
+#klienti_table th,
+#menu_table th,
+#porosia_table th {
+  padding: 12px;
+  text-align: left;
+  background-color: #009933;
+  color: white;
+}
+
+#shto_klient, #shto_menu,#shto_porosi{
+  float: right;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #009933;
+  border: none;
+}
+#shto_klient:hover,#shto_menu:hover,#shto_porosi:hover{
+  background-color: #007733;
+  transform: scale(1.1);
+}
+.fa-pencil-square-o{
+  color: #0000ff;
+}
+.fa-trash{
+  color: #ff0000;
+}
+#modifiko i{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#fshiej i {
+  margin-left: 50%;
+  transform: translateX(-50%);
